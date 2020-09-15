@@ -1,61 +1,50 @@
 body {
-	background-color: #ebebeb;
+	background-color: lightgray;
+	margin: 0px;
 }
 
-h2 {
+#avatar {
+	width: 250px;
+}
+
+#topbar {
+	background-color: gray;
+	overflow: hidden;
+}
+
+#topbar a {
 	color: white;
-	background-color: black;
-	text-align: center;
+	text-decoration: none;
 	font-size: 20px;
-	
-}
-
-p {
-	font-family: verdana;
-	font-size: 15px;
-}
-
-span {
-	color: white;
-	background-color: red;
-}
-
-#primeira-coluna {
-	width: 30%; 
+	padding: 15px;
 	float: left;
 }
 
-#segunda-coluna {
-	width: 70%; 
-	margin-left: auto;
+#topbar a:hover {
+	background-color: black;
 }
 
-#paragrafos {
+#conteudo {
 	clear: both;
 }
 
-.corpo-do-texto {
+#img-wrapper {
+	float: left;
+	margin: 5px;
+}
+
+#info {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+p, li {
+	font-size: 18px;
+}
+
+p {
 	font-family: serif;
+	text-align: justify;
 }
 
-table {
-	width: 100%;
-	border-collapse: collapse;
-}
-
-table, th, td {
-	border: 1px solid black;
-}
-
-thead th {
-	background: darkgray;
-}
-
-tbody tr:nth-child(odd) {
-	background: lightgray;
-}
-
-tbody tr:hover, tfoot tr:hover {
-	background: black !important;
-	color: white;
-}
