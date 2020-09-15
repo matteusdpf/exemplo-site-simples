@@ -1,0 +1,61 @@
+body {
+	background-color: #ebebeb;
+}
+
+h2 {
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+p {
+	font-family: verdana;
+	font-size: 15px;
+}
+
+span {
+	color: white;
+	background-color: red;
+}
+
+#primeira-coluna {
+	width: 30%; 
+	float: left;
+}
+
+#segunda-coluna {
+	width: 70%; 
+	margin-left: auto;
+}
+
+#paragrafos {
+	clear: both;
+}
+
+.corpo-do-texto {
+	font-family: serif;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+thead th {
+	background: darkgray;
+}
+
+tbody tr:nth-child(odd) {
+	background: lightgray;
+}
+
+tbody tr:hover, tfoot tr:hover {
+	background: black !important;
+	color: white;
+}
