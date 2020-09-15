@@ -4,7 +4,12 @@ body {
 }
 
 #avatar {
-	width: 250px;
+	width: 150px;
+}
+
+#img-wrapper {
+	float: left;
+	margin: 5px;
 }
 
 #topbar {
@@ -28,10 +33,6 @@ body {
 	clear: both;
 }
 
-#img-wrapper {
-	float: left;
-	margin: 5px;
-}
 
 #info {
 	float: left;
@@ -48,3 +49,22 @@ p {
 	text-align: justify;
 }
 
+.footer {
+	clear: both;
+	background-color: gray;	
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.footer p, .footer a {
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+
+img {
+	border-radius: 10%
+}
